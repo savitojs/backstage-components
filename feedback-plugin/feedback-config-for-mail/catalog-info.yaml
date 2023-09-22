@@ -1,0 +1,15 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: feedback-on-mail
+  annotations:
+    feedback/type: 'JIRA'       # 'JIRA' | 'MAIL'
+    # [required] if feedback/type is MAIL
+    feedback/email-to: yoswal@redhat.com     # who to send the email  
+
+spec:
+  type: website
+  lifecycle: experimental
+  owner: guests
+  system: examples
