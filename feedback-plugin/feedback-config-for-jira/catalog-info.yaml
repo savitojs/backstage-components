@@ -7,7 +7,7 @@ metadata:
     jira/project-key: DEE           # 'jira-project-key' 
 
     feedback/type: 'JIRA'       # 'JIRA' | 'MAIL'
-    feedback/host: 'https://issues.redhat.com'   # url of the service, it should be configured on backend as well, if not added the default 
+    feedback/host: 'https://yash-temp-jira-server.atlassian.net'   # url of the service, it should be configured on backend as well, if not added the default 
     #                                            # host for the `feedback/type` will be used 
       
     # [required] if feedback/type is MAIL
