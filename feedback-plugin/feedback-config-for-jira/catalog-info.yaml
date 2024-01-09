@@ -4,14 +4,15 @@ kind: Component
 metadata:
   name: feedback-on-jira
   annotations:
-    jira/project-key: DEE           # 'jira-project-key' 
+    jira/project-key: KAN           # 'jira-project-key' 
 
     feedback/type: 'JIRA'       # 'JIRA' | 'MAIL'
-    feedback/host: 'https://yash-temp-jira-server.atlassian.net'   # url of the service, it should be configured on backend as well, if not added the default 
-    #                                            # host for the `feedback/type` will be used 
+    # url of the service, it should be configured on backend as well, 
+    # if not added the default host for the `feedback/type` will be used 
+    feedback/host: 'https://yash-temp-jira-server.atlassian.net'   
       
     # [required] if feedback/type is MAIL
-    feedback/email-to: yoswal@redhat.com     # who to send the email  
+    feedback/email-to: yashoswal18@gmail.com     # who to send the email  
 
 spec:
   type: website
