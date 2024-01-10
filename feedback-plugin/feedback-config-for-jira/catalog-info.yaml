@@ -11,10 +11,10 @@ metadata:
     feedback/email-to: techologyhacks@gmail.com  
     
     ## [optional] if not set then default one will be used from app-config.yaml 
-    feedback/host: https://yash-temp-jira-server.atlassian.net
+    # /host: https://yash-temp-jira-server.atlassian.net
 
     ## Project key of your jira project.
-    jira/project-key: KAN       
+    jira/project-key: DEE       
 
 spec:
   type: website
