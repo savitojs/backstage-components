@@ -11,7 +11,7 @@ metadata:
     feedback/email-to: techologyhacks@gmail.com  
     
     ## [optional] if not set then default one will be used from app-config.yaml 
-    # feedback/host: https://<jira-host-url>/
+    feedback/host: https://<jira-host-url>/
 
     ## Project key of your jira project.
     jira/project-key: DEE       
