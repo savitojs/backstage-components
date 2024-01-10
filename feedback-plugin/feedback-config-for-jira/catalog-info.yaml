@@ -4,16 +4,16 @@ kind: Component
 metadata:
   name: feedback-on-jira
   annotations:
-    # [required] accepted values for now: 'JIRA', 'MAIL'
+    ## [required] accepted values for now: 'JIRA', 'MAIL'
     feedback/type: 'JIRA'       
     
-    # [required] whom to send the email along with reporter
+    ## [required] whom to send the email along with reporter
     feedback/email-to: yashoswal18@gmail.com  
     
-    # [optional] if not set then default one will be used from app-config.yaml 
+    ## [optional] if not set then default one will be used from app-config.yaml 
     # feedback/host: https://<jira-host-url>/
 
-    # Project key of your jira project.
+    ## Project key of your jira project.
     jira/project-key: DEE       
 
 spec:
