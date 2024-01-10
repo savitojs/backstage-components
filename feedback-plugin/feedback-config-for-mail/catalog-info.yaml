@@ -5,7 +5,7 @@ metadata:
   name: feedback-on-mail
   annotations:
     ## [required] accepted values for now: 'JIRA', 'MAIL'
-    feedback/type: 'JIRA'       
+    feedback/type: 'MAIL'       
     
     ## [required] whom to send the email along with reporter
     feedback/email-to: techologyhacks@gmail.com  
