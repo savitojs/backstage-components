@@ -4,12 +4,12 @@ kind: Component
 metadata:
   name: feedback-on-mail
   annotations:
+    matomo.io/site-id: 23
     ## [required] accepted values for now: 'JIRA', 'MAIL'
     feedback/type: 'MAIL'       
     
     ## [required] whom to send the email along with reporter
     feedback/email-to: techologyhacks@gmail.com  
-    matomo.io/site-id: "23"
     
     ## [optional] if not set then default one will be used from app-config.yaml 
     # feedback/host: https://<jira-host-url>/
