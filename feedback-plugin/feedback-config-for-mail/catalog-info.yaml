@@ -4,7 +4,6 @@ kind: Component
 metadata:
   name: feedback-on-mail
   annotations:
-    matomo.io\/site-id: '23'
     ## [required] accepted values for now: 'JIRA', 'MAIL'
     feedback/type: 'MAIL'       
     
