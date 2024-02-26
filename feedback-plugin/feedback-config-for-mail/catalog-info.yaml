@@ -15,8 +15,8 @@ metadata:
 
     ## [required] if feedback/type is JIRA
     ## Project key of your jira project.
-    # jira/project-key: DEE       
-    'matomo.io/site-id': '23'
+    # jira/project-key: DEE
+    servicenow.com/appcode: ONEP-003       
     
 spec:
   type: website
