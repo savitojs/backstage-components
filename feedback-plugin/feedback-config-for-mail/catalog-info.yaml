@@ -4,19 +4,15 @@ kind: Component
 metadata:
   name: feedback-on-mail
   annotations:
-    ## [required] accepted values for now: 'JIRA', 'MAIL'
-    feedback/type: 'MAIL'       
-    
-    ## [required] whom to send the email along with reporter
-    feedback/email-to: techologyhacks@gmail.com  
-    
-    ## [optional] if not set then default one will be used from app-config.yaml 
-    # feedback/host: https://<jira-host-url>/
-
-    ## [required] if feedback/type is JIRA
-    ## Project key of your jira project.
-    # jira/project-key: DEE
-    servicenow.com/appcode: ONEP-003       
+    gitlab.com/project-slug: 'app-dev-platform/backstage'
+    servicenow.com/appcode: ONEP-003
+    matomo.io/site-id: '227'
+    jira/project-key: DEE # 'jira-project-key'
+    jira/component: 'Backstage Core'
+    feedback/type: 'JIRA' # 'JIRA' | 'MAIL'
+    feedback/host: 'https://issues.redhat.com' # host of the service, should be configured in app-config (default: https://issues.redhat.com)
+    feedback/email-to: one-platform-devs+feeback-plugin-dev@redhat.com # who to send the email
+    lighthouse.io/project-name: rh-experience-platform
     
 spec:
   type: website
