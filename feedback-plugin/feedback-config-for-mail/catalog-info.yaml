@@ -18,4 +18,4 @@ spec:
   type: website
   lifecycle: experimental
   owner: user:redhat/yoswal
-  system: system:redhat/redhat-experience-platform
+  system: system:devex/redhat-experience-platform
