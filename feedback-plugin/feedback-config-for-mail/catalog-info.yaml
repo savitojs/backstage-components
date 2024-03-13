@@ -6,13 +6,6 @@ metadata:
   annotations:
     gitlab.com/project-slug: 'app-dev-platform/backstage'
     servicenow.com/appcode: ONEP-003
-    matomo.io/site-id: '3'
-    jira/project-key: DEE # 'jira-project-key'
-    jira/component: 'Backstage Core'
-    feedback/type: 'JIRA' # 'JIRA' | 'MAIL'
-    feedback/host: 'https://issues.redhat.com' # host of the service, should be configured in app-config (default: https://issues.redhat.com)
-    feedback/email-to: one-platform-devs+feeback-plugin-dev@redhat.com # who to send the email
-    lighthouse.io/project-name: rh-experience-platform
     
 spec:
   type: website
