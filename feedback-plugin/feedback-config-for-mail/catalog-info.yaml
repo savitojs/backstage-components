@@ -17,5 +17,5 @@ metadata:
 spec:
   type: website
   lifecycle: experimental
-  owner: yoswal
-  system: redhat-experience-platform
+  owner: user:redhat/yoswal
+  system: system:redhat/redhat-experience-platform
