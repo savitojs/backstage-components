@@ -1,0 +1,14 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-service-for-report-portal-plugin
+  description: Report portal plugin example component
+  annotations:
+    reportportal.io/project-name: 'dxp_qe'
+    reportportal.io/launch-name: 'hydra-drupal-api'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:default/guest
+  system: examples
