@@ -14,7 +14,7 @@ metadata:
     # /host: https://yash-temp-jira-server.atlassian.net
 
     ## Project key of your jira project.
-    jira/project-key: DEE       
+    jira/project-key: DEMO       
 
 spec:
   type: website
