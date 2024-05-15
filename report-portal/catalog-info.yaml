@@ -6,7 +6,7 @@ metadata:
   description: Report portal plugin example component
   annotations:
     reportportal.io/project-name: 'dxp_qe'
-    reportportal.io/launch-name: 'hydra-drupal-api'
+    reportportal.io/launch-name: 'Demo Api Tests'
 spec:
   type: service
   lifecycle: experimental
