@@ -1,0 +1,14 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-for-matomo
+  description: Some description of the example-for-matomo component
+  annotations:
+    # dev instance
+    matomo.io/site-id: '3'
+spec:
+  type: website
+  lifecycle: production
+  owner: user:default/guest
+  system: examples
