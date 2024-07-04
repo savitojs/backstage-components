@@ -6,6 +6,7 @@ metadata:
   annotations:
     gitlab.com/project-slug: 'app-dev-platform/backstage'
     servicenow.com/appcode: ONEP-003
+    feedback/type: MAIL
     
 spec:
   type: website
