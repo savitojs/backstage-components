@@ -8,7 +8,7 @@ metadata:
     reportportal.io/project-name: 'dxp_qe'
     reportportal.io/launch-name: 'Demo Api Tests'
 spec:
-  type: service
+  type: website
   lifecycle: experimental
-  owner: user:default/guest
-  system: examples
+  owner: user:redhat/yoswal
+  system: system:devex/redhat-experience-platform
