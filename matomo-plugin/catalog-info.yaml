@@ -6,7 +6,7 @@ metadata:
   description: Some description of the example-for-matomo component
   annotations:
     # dev instance
-    matomo.io/site-id: "1"
+    matomo.io/site-id: '2'
 spec:
   type: website
   lifecycle: production
